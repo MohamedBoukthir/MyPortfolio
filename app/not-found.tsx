@@ -24,7 +24,7 @@ export default function FourZeroFour() {
         </p>
         <p className="mb-8">But dont worry, you can find plenty of other things on our homepage.</p>
         <Button>
-          <Link href="/">Back to homepage</Link>
+          <Link href="/">Back to homepage &rarr;</Link>
         </Button>
       </div>
     </SectionContainer>

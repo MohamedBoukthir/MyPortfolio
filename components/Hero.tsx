@@ -5,7 +5,8 @@ import { ReactElement, useContext, useEffect, useRef } from 'react'
 import { ScrollContext } from './Providers/ScrollProvider';
 import { renderCanvas } from './renderCanvas';
 import { HiOutlineArrowNarrowDown } from 'react-icons/hi';
-import { Link } from 'lucide-react';
+import Link from 'next/link';
+
 
 export default function Hero(): ReactElement {
 
@@ -36,14 +37,14 @@ export default function Hero(): ReactElement {
               Mohamed Boukthir
             </h1>
             <h2 className="text-3xl font-medium opacity-80 sm:text-6xl md:text-6xl xl:text-7xl">
-            I love learning about new tech stuff and using it to make good software
+              I love learning about new tech stuff and using it to make good software
             </h2>
-            <Link
-              href="/about"
-              className="text-md w-max cursor-pointer sm:text-lg md:text-xl xl:text-2xl"
-            >
-              Read more about me &rarr;
-            </Link>
+                <Link
+                  href="/about"
+                  className="text-md w-max mb-9 cursor-pointer sm:text-lg md:text-xl xl:text-2xl"
+                >
+                  Read more about me &rarr;
+                </Link>
           </div>
           <motion.div
             animate={{
