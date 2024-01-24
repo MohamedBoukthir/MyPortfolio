@@ -36,7 +36,7 @@
   }
  
   .dark {
-    --background: 222.2 84% 4.9%;
+    --background: (0.00,0.00%,87.84%);
     --foreground: 210 40% 98%;
  
     --card: 222.2 84% 4.9%;
@@ -65,6 +65,55 @@
     --ring: 212.7 26.8% 83.9%;
   }
 }
+
+.task-list-item::before {
+  @apply hidden;
+}
+
+.task-list-item {
+  @apply list-none;
+}
+
+/* https://stackoverflow.com/questions/61083813/how-to-avoid-internal-autofill-selected-style-to-be-applied */
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.horizontal-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#ae1ee0, #ae1ee0);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease-in-out;
+}
+
+.horizontal-underline:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%;
+}
+
+.horizontal-underline-active {
+  background-size: 100% 3px;
+  background-position: 0 100%;
+}
+
+#nprogress .bar {
+  background: #ae1ee0 !important;
+  height: 4px !important;
+}
+
+.introText {
+  transition: opacity 0.4s;
+}
+
  
 @layer base {
   * {

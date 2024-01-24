@@ -21,9 +21,9 @@ export default function Navbar() {
                     <Link
                         href="/"
                         className={classNames(
-                            'horizontal-underline hidden text-3xl font-extrabold sm:block',
+                            'hidden text-3xl font-extrabold sm:block',
                             {
-                            'horizontal-underline-active': pathName === '/',
+                            '': pathName === '/',
                             }
                         )}
                         aria-label='Logo'
