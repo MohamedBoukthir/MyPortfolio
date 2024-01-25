@@ -1,11 +1,11 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ReactElement, useContext, useEffect, useRef } from 'react'
+import Link from 'next/link';
+import { ReactElement, useContext, useEffect, useRef } from 'react';
+import { HiOutlineArrowNarrowDown } from 'react-icons/hi';
 import { ScrollContext } from './Providers/ScrollProvider';
 import { renderCanvas } from './renderCanvas';
-import { HiOutlineArrowNarrowDown } from 'react-icons/hi';
-import Link from 'next/link';
 
 
 export default function Hero(): ReactElement {
@@ -41,7 +41,7 @@ export default function Hero(): ReactElement {
             </h2>
                 <Link
                   href="/about"
-                  className="horizontal-underline text-md w-max mb-9 cursor-pointer  sm:text-lg md:text-xl xl:text-2xl"
+                  className="!mt-4 horizontal-underline text-md w-max mb-9 cursor-pointer sm:text-lg md:text-xl xl:text-2xl"
                 >
                   Read more about me &rarr;
                 </Link>
