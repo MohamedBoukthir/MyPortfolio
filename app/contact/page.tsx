@@ -1,4 +1,4 @@
-import Contact from '@/components/Contact';
+import Contact from '@/components/Contact/Contact';
 import MainLayout from '@/components/layouts/MainLayout';
 
 
