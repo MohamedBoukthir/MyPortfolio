@@ -41,7 +41,7 @@ export default function Hero(): ReactElement {
             </h2>
                 <Link
                   href="/about"
-                  className="!mt-4 horizontal-underline text-md w-max mb-9 cursor-pointer sm:text-lg md:text-xl xl:text-2xl"
+                  className="!mt-2 horizontal-underline text-md w-max mb-9 cursor-pointer sm:text-lg md:text-xl xl:text-2xl"
                 >
                   Read more about me &rarr;
                 </Link>

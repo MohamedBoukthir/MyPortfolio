@@ -3,6 +3,8 @@
 import React, { useContext, useEffect, useRef } from 'react'
 import { renderCanvas } from './renderCanvas';
 import { ScrollContext } from './Providers/ScrollProvider';
+import SectionContainer from './SectionContainer';
+import GitHubCalendar from 'react-github-calendar';
 
 export default function 
 () {
@@ -19,8 +21,10 @@ export default function
         renderCanvas();
       }, []);
   return (
-        <div>
-           
+    <SectionContainer>
+        <div className='flex justify-center items-center mt-10 w-full'>
+          <GitHubCalendar username="MohamedBoukthir" fontSize={17} blockRadius={2} year={new Date().getFullYear()}/>
         </div>
+    </SectionContainer>
   )
 }

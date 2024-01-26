@@ -1,7 +1,7 @@
+import GithubContribution from "@/components/GithubContribution";
 import Hero from "@/components/Hero";
 import Intro from "@/components/Intro";
 import { ScrollProvider } from "@/components/Providers/ScrollProvider";
-import Technologies from "@/components/Technologies";
 
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
     <ScrollProvider>
       <Hero />
       <Intro/>
-      <Technologies/>
+      <GithubContribution/>
     </ScrollProvider>
   );
 }
