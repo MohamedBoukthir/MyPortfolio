@@ -1,3 +1,4 @@
+import About from '@/components/About/About';
 import MainLayout from '@/components/layouts/MainLayout';
 import React from 'react'
 
@@ -9,7 +10,7 @@ export const metadata = {
 export default function page() {
   return (
     <MainLayout>
-      <div>about</div>
+      <About/>
     </MainLayout>
   )
 }

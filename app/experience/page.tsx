@@ -14,7 +14,8 @@ export default function page() {
           My Experience
         </h1>
         <p className="text-lg leading-7 !mt-12 text-gray-500 dark:text-gray-400">
-          
+          Check out my work experience below. If you have any projects or ideas to discuss, I'm all ears! Your messages make my work journey exciting.
+          Feel free to reach out to talk about anything – past projects, possible teamwork, or just to say hi. Looking forward to hearing from you soon
         </p>
       </div>
     </MainLayout>
