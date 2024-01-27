@@ -1,3 +1,4 @@
+import Experience from '@/components/Experience/Experience';
 import MainLayout from '@/components/layouts/MainLayout';
 import React from 'react'
 
@@ -9,7 +10,7 @@ export const metadata = {
 export default function page() {
   return (
     <MainLayout>
-      <div className="space-y-2 pt-6 pb-8 md:space-y-5 ">
+      <div className="space-y-2 pt-2 md:space-y-5 ">
         <h1 className="flex items-center justify-center text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
           My Experience
         </h1>
@@ -18,6 +19,7 @@ export default function page() {
           Feel free to reach out to talk about anything – past projects, possible teamwork, or just to say hi. Looking forward to hearing from you soon
         </p>
       </div>
+      <Experience/>
     </MainLayout>
   )
 }

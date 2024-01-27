@@ -85,7 +85,7 @@ function n(e) {
       e.touches
         ? ((pos.x = e.touches[0].pageX), (pos.y = e.touches[0].pageY))
         : ((pos.x = e.clientX), (pos.y = e.clientY)),
-        e.preventDefault();
+        {passive:false}
     }
     function l(e) {
       1 == e.touches.length && ((pos.x = e.touches[0].pageX), (pos.y = e.touches[0].pageY));

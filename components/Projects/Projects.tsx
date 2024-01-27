@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 import ProjectItem from './ProjectItem';
-import { projects } from './constants';
+import { projects } from '../../constants/projects';
 import { ProjectModal } from './types';
 
 
