@@ -13,7 +13,7 @@ export default function About() {
             <Image
               src={me}
               alt="Mohamed Boukthir"
-              height={300}
+              height={350}
               className="object-cover"
               quality={100}
               priority={true}

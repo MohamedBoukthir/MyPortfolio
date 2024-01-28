@@ -1,4 +1,4 @@
-import Contact from '@/components/Contact/Contact';
+import { ContactForm } from '@/components/Contact/ContactForm';
 import MainLayout from '@/components/layouts/MainLayout';
 
 
@@ -20,7 +20,7 @@ export default function page() {
          keystrokes that keep my coding journey exciting. Looking forward to hearing from you soon!
         </p>
       </div>
-      <Contact/>
+      <ContactForm/>
     </MainLayout>
   )
 }
