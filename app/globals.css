@@ -66,6 +66,7 @@
   }
 }
 
+
 .task-list-item::before {
   @apply hidden;
 }
@@ -83,8 +84,6 @@ input:-webkit-autofill:focus {
 html::-webkit-scrollbar {
   display: none;
 }
-
-
 
 .horizontal-underline {
   border-bottom-width: 0;

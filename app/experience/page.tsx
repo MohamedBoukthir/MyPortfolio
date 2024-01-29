@@ -1,6 +1,5 @@
 import Experience from '@/components/Experience/Experience';
 import MainLayout from '@/components/layouts/MainLayout';
-import React from 'react'
 
 export const metadata = {
     title: 'Experience - Mohamed Boukthir',
