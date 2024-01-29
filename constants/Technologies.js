@@ -27,8 +27,8 @@ export const technologies = [
   {
     category: "Tools",
     items: [ 
-      {name: "Git", icon: <FaGithub size={32}/>},
-      {name: "GitHub", icon: <FaGitSquare size={32}/>},
+      {name: "Git", icon: <FaGitSquare size={32}/>},
+      {name: "GitHub", icon: <FaGithub size={32}/>},
       {name: "Postman" , icon: <SiPostman size={32}/>},
       {name: "VsCode", icon: <TbBrandVscode size={32}/>},
       {name: "IntelliJ", icon: <SiIntellijidea size={32}/>},

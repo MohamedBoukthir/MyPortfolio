@@ -6,10 +6,10 @@ export default function About() {
   return (
     <div className="relative pb-1">
       <div className=" pt-2 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-8 lg:pt-8">
-      <div className="mt-5 w-full h-px bg-zinc-800" />
+        <div className="mt-5 w-full h-px bg-zinc-800" />
 
         <div className="flex flex-col md:flex-row space-y-8 md:space-x-8 md:space-y-0">
-          <div className="flex justify-center md:justify-start min-w-fit">
+          <div className="flex justify-center w-auto md:justify-start min-w-fit">
             <Image
               src={me}
               alt="Mohamed Boukthir"
@@ -17,7 +17,6 @@ export default function About() {
               className="object-cover"
               quality={100}
               priority={true}
-              placeholder="blur"
             />
           </div>
           <div className="flex flex-col space-y-6">
@@ -43,18 +42,19 @@ export default function About() {
               </p>
             </article>
             <article className="flex flex-col space-y-2 w-full md:w-3/4">
-              <h3 className="pt-18 text-3xl font-bold tracking-tight  self-center md:self-start">
+              <h3 className="pt-18 text-3xl font-bold tracking-tight self-center md:self-start">
                 Technologies I use
               </h3>
-              <ul className="pt-5 list-outside list-none flex gap-4 flex-wrap justify-center md:justify-start text-sm ">
+              <div className="pt-5 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 justify-center md:justify-start text-sm ">
                 {technologies.map((category) =>
                   category.items.map((tech) => (
-                    <li key={tech.name} className="flex items-center">
-                      {tech.icon} <span className="ml-1">{tech.name}</span>
-                    </li>
+                    <div key={tech.name} className="flex items-center flex-col">
+                      {tech.icon}
+                      <span className="mt-2">{tech.name}</span>
+                    </div>
                   ))
                 )}
-              </ul>
+              </div>
             </article>
           </div>
         </div>

@@ -35,7 +35,7 @@ export default function page({ params }: Props) {
 
   return (
     <MainLayout>
-    <div className=" min-h-screen">
+    <div className="min-h-screen">
         <Header project={project} />
         <article className="px-4 py-12 mx-auto prose prose-zinc prose-quoteless">
         <div className="flex flex-col">
@@ -46,14 +46,17 @@ export default function page({ params }: Props) {
               className="rounded border object-fill"
             />
           )}
-          <p className="leading-7  mt-5">{project.description}</p>
-          <p className="leading-7">
-              Some of the technologies used in this project
+          <p className="leading-7 mt-5 mb-5">
+            <b className="mb-2">Description : </b> <br />
+            {project.description}
+          </p>
+          <p className="leading-7 mb-2">
+            <b>Some of the technologies used in this project : </b>  
           </p>
           <ul className="p-0 m-0 list-none flex gap-4 flex-wrap text-sm">
             {project.stack.map(tec => (
               <li key={tec}>
-                {tec}
+                 • {tec}
               </li>
             ))}
           </ul>
