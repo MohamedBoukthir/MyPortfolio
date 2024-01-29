@@ -4,8 +4,8 @@ import { technologies } from "@/constants/Technologies";
 
 export default function About() {
   return (
-    <div className="relative pb-3">
-      <div className=" pt-2 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32">
+    <div className="relative pb-1">
+      <div className=" pt-2 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-8 lg:pt-8">
       <div className="mt-5 w-full h-px bg-zinc-800" />
 
         <div className="flex flex-col md:flex-row space-y-8 md:space-x-8 md:space-y-0">
