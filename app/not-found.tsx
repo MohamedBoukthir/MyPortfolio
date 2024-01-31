@@ -1,14 +1,13 @@
-import SectionContainer from '@/components/SectionContainer';
-import { Button } from '@/components/ui/button';
-import Link from 'next/link';
-
+import SectionContainer from "@/components/SectionContainer";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 // TODO: Comment out when https://github.com/vercel/next.js/issues/50566 is fixed.
 
- export const metadata = {
-   title: '404 - Mohamed Boukthir',
-   description: 'Not Found - Mohamed Boukthir',
- };
+export const metadata = {
+  title: "404 - Mohamed Boukthir",
+  description: "Not Found - Mohamed Boukthir",
+};
 
 export default function FourZeroFour() {
   return (
@@ -22,9 +21,11 @@ export default function FourZeroFour() {
         <p className="mb-4 text-xl font-bold leading-normal md:text-2xl">
           Sorry we couldn't find this page.
         </p>
-        <p className="mb-8">But dont worry, you can find plenty of other things on our homepage.</p>
+        <p className="mb-8">
+          But dont worry, you can find plenty of other things on our homepage.
+        </p>
         <Button>
-          <Link href="/">Back to homepage &rarr;</Link>
+          <Link href="/">Back to Home &rarr;</Link>
         </Button>
       </div>
     </SectionContainer>

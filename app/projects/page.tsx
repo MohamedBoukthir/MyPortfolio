@@ -2,8 +2,8 @@ import Projects from "@/components/Projects/Projects";
 import SectionContainer from "@/components/SectionContainer";
 
 export const metadata = {
-  title: 'Projects - Mohamed Boukthir',
-  description: 'My projects - Mohamed Boukthir',
+  title: "Projects - Mohamed Boukthir",
+  description: "My projects - Mohamed Boukthir",
 };
 
 export default function page() {
@@ -14,10 +14,11 @@ export default function page() {
           My Projcts
         </h1>
         <p className="text-lg leading-7 !mt-12 text-gray-500 dark:text-gray-400">
-          Here are some of my most important and recent projects that I have been working on.
+          Here are some of my most important and recent projects that I have
+          been working on.
         </p>
       </div>
-      <Projects/>
+      <Projects />
     </SectionContainer>
   );
 }

@@ -27,15 +27,11 @@ export default function Experience() {
                   <h2 className="text-xs min-[500px]:text-sm">
                     {exp.position}
                   </h2>
-                  <h2 className=" text-xs min-[500px]:text-sm">
-                    {exp.time}
-                  </h2>
+                  <h2 className=" text-xs min-[500px]:text-sm">{exp.time}</h2>
                 </div>
               </div>
 
-              <p className=" text-sm min-[500px]:text-lg">
-                {exp.description}
-              </p>
+              <p className=" text-sm min-[500px]:text-lg">{exp.description}</p>
               <ul className="list-disc text-xs min-[500px]:text-sm  space-y-4 px-4">
                 {exp.task.map((task) => (
                   <li key={task}>{task}</li>

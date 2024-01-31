@@ -1,6 +1,6 @@
-'use client';
-import { Lenis as ReactLenis } from '@studio-freight/react-lenis';
-import { ReactNode } from 'react';
+"use client";
+import { Lenis as ReactLenis } from "@studio-freight/react-lenis";
+import { ReactNode } from "react";
 
 interface Props {
   children: ReactNode;

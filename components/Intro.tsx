@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { useLenis } from '@studio-freight/react-lenis';
-import { useRef, useState } from 'react';
+import { useLenis } from "@studio-freight/react-lenis";
+import { useRef, useState } from "react";
 
 function opacityForBlock(sectionProgress: number, blockNumber: number) {
   const progress = sectionProgress - blockNumber;
@@ -31,8 +31,10 @@ export default function Intro() {
     const halfH = screenH / 2;
 
     const percentY =
-      Math.min(clientHeight + halfH, Math.max(-screenH, scrollY - offsetTop) + halfH) /
-      clientHeight;
+      Math.min(
+        clientHeight + halfH,
+        Math.max(-screenH, scrollY - offsetTop) + halfH
+      ) / clientHeight;
 
     progress = Math.min(numOfPages - 0.5, Math.max(0.5, percentY * numOfPages));
   }
@@ -45,21 +47,25 @@ export default function Intro() {
     >
       <div className="mx-auto flex min-h-screen max-w-5xl flex-col items-center justify-center px-10 py-24 text-4xl font-semibold tracking-tight md:py-28 md:text-6xl lg:px-20 lg:py-3 lg:text-7xl">
         <div className="leading-[1.15]">
-          <div className="introText" style={{ opacity: opacityForBlock(progress, 0) }}>
+          <div
+            className="introText"
+            style={{ opacity: opacityForBlock(progress, 0) }}
+          >
             I love coding.
           </div>
           <span
             className="introText inline-block after:content-['_']"
             style={{ opacity: opacityForBlock(progress, 1) }}
           >
-            I use my passion and skills to build digital products and experiences.
+            I use my passion and skills to build digital products and
+            experiences.
           </span>
           <span
             className="introText inline-block"
             style={{ opacity: opacityForBlock(progress, 2) }}
           >
-            Building the future with creativity and caffeine. 
-            Join me on this exciting digital journey.
+            Building the future with creativity and caffeine. Join me on this
+            exciting digital journey.
           </span>
         </div>
       </div>

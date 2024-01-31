@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { useLenis } from '@studio-freight/react-lenis';
-import { createContext, ReactNode, useState } from 'react';
+import { useLenis } from "@studio-freight/react-lenis";
+import { createContext, ReactNode, useState } from "react";
 
 interface ScrollValue {
   scrollY: number;
@@ -22,5 +22,9 @@ export const ScrollProvider = ({ children }: ScrollProviderProps) => {
     setScrollY(scroll);
   });
 
-  return <ScrollContext.Provider value={{ scrollY }}>{children}</ScrollContext.Provider>;
+  return (
+    <ScrollContext.Provider value={{ scrollY }}>
+      {children}
+    </ScrollContext.Provider>
+  );
 };

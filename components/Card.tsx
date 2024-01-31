@@ -1,11 +1,9 @@
-'use client';
-import { motion, useMotionTemplate, useSpring } from 'framer-motion';
+"use client";
+import { motion, useMotionTemplate, useSpring } from "framer-motion";
 
-import { PropsWithChildren } from 'react';
-
+import { PropsWithChildren } from "react";
 
 export const Card: React.FC<PropsWithChildren> = ({ children }) => {
-
   const mouseX = useSpring(0, { stiffness: 500, damping: 100 });
   const mouseY = useSpring(0, { stiffness: 500, damping: 100 });
 
@@ -36,7 +34,7 @@ export const Card: React.FC<PropsWithChildren> = ({ children }) => {
 
       {children}
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;
