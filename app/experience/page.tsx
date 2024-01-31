@@ -15,7 +15,7 @@ export default function page() {
         </h1>
         <p className="text-lg text-gray-500 dark:text-gray-400">
           Check out my work experience below. If you have any projects or ideas
-          to discuss, I'm all ears! Your messages make my work journey exciting.
+          to discuss, I&apos;m all ears! Your messages make my work journey exciting.
           Feel free to reach out to talk about anything – past projects,
           possible teamwork, or just to say hi. Looking forward to hearing from
           you soon

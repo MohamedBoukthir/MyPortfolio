@@ -14,9 +14,9 @@ export default function page() {
           Contact
         </h1>
         <p className="text-lg text-gray-500 dark:text-gray-400">
-          Let's Connect! Get in touch with me through the contact form below.
+          Let&apos;s Connect! Get in touch with me through the contact form below.
           Whether you have a project in mind, want to discuss potential
-          collaborations, or just want to say hello, I'm all ears. Your messages
+          collaborations, or just want to say hello, I&apos;m all ears. Your messages
           are the keystrokes that keep my coding journey exciting. Looking
           forward to hearing from you soon!
         </p>

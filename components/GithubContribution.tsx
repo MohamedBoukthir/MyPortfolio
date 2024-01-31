@@ -3,7 +3,7 @@
 import GitHubCalendar from 'react-github-calendar';
 import SectionContainer from './SectionContainer';
 
-export default function 
+export default function GithubContribution
 () {
   return (
     <SectionContainer>

@@ -25,7 +25,7 @@ export default function Hero(): ReactElement {
   return (
     <div>
       <h1 className="sr-only">
-        Hello I'm Mohamed Boukthir, I'm a software developer, I really like
+        Hello I&apos;m Mohamed Boukthir, I&apos;m a software developer, I really like
         making computer programs and finding smart ways to solve problems.
       </h1>
       <div className="relative z-10 flex h-[calc(100vh-81px)] items-center md:h-[calc(100vh-116px)]">
@@ -36,7 +36,7 @@ export default function Hero(): ReactElement {
                 Mohamed Boukthir
               </h1>
               <h2 className="text-3xl font-medium opacity-80 sm:text-6xl md:text-6xl xl:text-7xl">
-                I'm a software developer, I love learning about new tech stuff and using it to make good
+                I&apos;m a software developer, I love learning about new tech stuff and using it to make good
                 software
               </h2>
               <Link

@@ -32,14 +32,14 @@ export default function About() {
               </article>
               <article className="flex flex-col space-y-2 w-full ">
                 <p className=" text-sm leading-7 text-center md:text-start">
-                  I'm a cybersecurity master's student passionate about keeping
+                  I&apos;m a cybersecurity master&apos;s student passionate about keeping
                   digital spaces safe. I also have some experience with web
                   development.
                 </p>
                 <p className="text-sm leading-7 text-center md:text-start">
                   I love solving tough security problems and want to use my
                   skills in both cybersecurity and web development to make the
-                  internet safer and better for everyone. I'm excited to learn
+                  internet safer and better for everyone. I&apos;m excited to learn
                   and grow in this fast-changing field
                 </p>
               </article>
