@@ -1,5 +1,5 @@
-import Iset from "../public/experience/iset.jpg";
-import Enactus from "../public/experience/enactus.png";
+import Iset from "../public/iset.jpg";
+import Enactus from "../public/enactus.png";
 
 export const experience = [
   {

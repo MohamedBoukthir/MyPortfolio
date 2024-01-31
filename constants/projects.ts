@@ -1,9 +1,9 @@
 import { Project } from "@/Interface/projects";
-import Wave from "../public/projects/wave.png";
-import Medicare from "../public/projects/medicare.png";
-import Shop from "../public/projects/e-commerce.png";
-import Security from "../public/projects/security.jpg";
-import Java from "../public/projects/java.jpg";
+import Wave from "../public/wave.png";
+import Medicare from "../public/medicare.png";
+import Shop from "../public/e-commerce.png";
+import Security from "../public/security.jpg";
+import Java from "../public/java.jpg";
 
 export const projects: Project[] = [
   {
