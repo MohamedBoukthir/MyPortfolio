@@ -1,6 +1,6 @@
 import { Project } from "@/Interface/projects";
-import Wave from "../public/wave.png";
-import Medicare from "../public/medicare.png";
+import Wave from "../public/wave.jpg";
+import Medicare from "../public/medicare.jpg";
 import Shop from "../public/e-commerce.png";
 import Security from "../public/security.jpg";
 import Java from "../public/java.jpg";
