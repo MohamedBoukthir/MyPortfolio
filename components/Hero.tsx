@@ -31,17 +31,17 @@ export default function Hero(): ReactElement {
       <div className="relative z-10 flex h-[calc(100vh-81px)] items-center md:h-[calc(100vh-116px)]">
         <div className="mx-auto w-screen max-w-3xl px-4 sm:px-9 xl:max-w-5xl xl:px-0">
           <div className="-mt-36">
-            <div ref={ref} className="flex cursor-default flex-col space-y-2">
+            <div ref={ref} className="flex  flex-col space-y-2">
               <h1 className="text-5xl font-semibold sm:text-7xl md:text-8xl xl:text-9xl">
                 Mohamed Boukthir
               </h1>
               <h2 className="text-3xl font-medium opacity-80 sm:text-6xl md:text-6xl xl:text-7xl">
-                I love learning about new tech stuff and using it to make good
+                I'm a software developer, I love learning about new tech stuff and using it to make good
                 software
               </h2>
               <Link
                 href="/about"
-                className="!mt-2 horizontal-underline text-md w-max mb-9 cursor-pointer sm:text-lg md:text-xl xl:text-2xl"
+                className="!mt-4 horizontal-underline text-md w-max mb-9 cursor-pointer sm:text-lg md:text-xl xl:text-2xl"
               >
                 Read more about me &rarr;
               </Link>
@@ -61,7 +61,7 @@ export default function Hero(): ReactElement {
                   intro?.scrollIntoView({ behavior: "smooth" });
                 }}
               >
-                <HiOutlineArrowNarrowDown size={29} />
+                <HiOutlineArrowNarrowDown size={32} />
               </div>
             </motion.div>
           </div>

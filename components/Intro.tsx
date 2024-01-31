@@ -51,7 +51,7 @@ export default function Intro() {
             className="introText"
             style={{ opacity: opacityForBlock(progress, 0) }}
           >
-            I love coding.
+            I have a deep love for coding.
           </div>
           <span
             className="introText inline-block after:content-['_']"
