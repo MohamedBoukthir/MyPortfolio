@@ -1,9 +1,11 @@
 import Image from "next/image";
 import me from "../../public/me.jpg";
 import { technologies } from "@/constants/Technologies";
+import SectionContainer from "../SectionContainer";
 
 export default function About() {
   return (
+    <SectionContainer>
     <div className="relative pb-1">
       <div className=" pt-2 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-8 lg:pt-8">
         <div className="mt-5 w-full h-px bg-zinc-800" />
@@ -13,7 +15,7 @@ export default function About() {
             <Image
               src={me}
               alt="Mohamed Boukthir"
-              height={350}
+              height={380}
               className="object-cover"
               quality={100}
               priority={true}
@@ -60,5 +62,6 @@ export default function About() {
         </div>
       </div>
     </div>
+    </SectionContainer>
   );
 }
