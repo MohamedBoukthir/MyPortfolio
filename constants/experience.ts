@@ -1,5 +1,5 @@
-import iset from "../public/experience/iset.jpg";
-import enactus from "../public/experience/enactus.png";
+import Iset from "../public/experience/iset.jpg";
+import Enactus from "../public/experience/enactus.png";
 
 export const experience = [
   {
@@ -13,7 +13,7 @@ export const experience = [
       "Feature Implementation with Node.js and Express.js",
       "Version Control and Collaboration.",
     ],
-    logo: iset,
+    logo: Iset,
   },
   {
     company: "Enactus",
@@ -26,6 +26,6 @@ export const experience = [
       "Develop Adaptive Project Strategies.",
       "Implement Creative Problem-Solving Workshops.",
     ],
-    logo: enactus,
+    logo: Enactus,
   },
 ];
