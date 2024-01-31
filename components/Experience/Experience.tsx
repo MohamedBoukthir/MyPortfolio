@@ -5,7 +5,7 @@ import React from "react";
 export default function Experience() {
   return (
     <div className="px-6 pt-10 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-8 lg:pt-8">
-      <div className="w-full h-px bg-zinc-800" />
+      <div className="w-full h-px " />
       <div className="flex flex-col space-y-12 md:space-y-16">
         {experience.map((exp) => (
           <>
