@@ -1,8 +1,8 @@
 import { projects } from "@/constants/projects";
 import { notFound } from "next/navigation";
 import Header from "./Header";
-import Image from "@/components/Image";
 import MainLayout from "@/components/layouts/MainLayout";
+import Image from "next/image";
 
 type PropsParams = {
   params: {
