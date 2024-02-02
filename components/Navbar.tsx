@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <SectionContainer>
-      <header className="z-40 bg-transparent py-5 md:py-10">
+      <header className="z-40 bg-transparent py-5 md:py-10 sticky">
         <div className="mx-auto flex max-w-5xl items-center justify-between">
           <div>
             <Link
