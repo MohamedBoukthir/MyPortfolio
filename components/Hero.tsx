@@ -28,14 +28,14 @@ export default function Hero(): ReactElement {
         Hello I&apos;m Mohamed Boukthir, I&apos;m a software developer, I really like
         making computer programs and finding smart ways to solve problems.
       </h1>
-      <div className="relative z-10 flex h-[calc(100vh-81px)] items-center md:h-[calc(100vh-116px)]">
+      <div className="flex h-[calc(100vh-81px)] items-center md:h-[calc(100vh-80px)]">
         <div className="mx-auto w-screen max-w-3xl px-4 sm:px-9 xl:max-w-5xl xl:px-0">
-          <div className="-mt-36">
-            <div ref={ref} className="flex  flex-col space-y-2">
-              <h1 className="text-5xl font-semibold sm:text-7xl md:text-8xl xl:text-9xl">
+          <div className="-mt-10 md:-mt-20">
+            <div ref={ref} className="flex flex-col space-y-2">
+              <h1 className="text-5xl font-semibold sm:text-5xl md:text-5xl xl:text-[7rem]">
                 Mohamed Boukthir
               </h1>
-              <h2 className="text-3xl font-medium opacity-80 sm:text-6xl md:text-6xl xl:text-7xl">
+              <h2 className="text-3xl font-medium opacity-80 sm:text-5xl md:text-5xl xl:text-7xl">
                 I&apos;m a software developer, I love learning about new tech stuff and using it to make good
                 software
               </h2>
