@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "Building the future with creativity and caffeine. Join me on this exciting digital journey.",
   openGraph: {
     title: "Mohamed Boukthir | Portfolio",
-    description: "Desarrollador Frontend con conocimientos Full-Stack",
+    description: "Building the future with creativity and caffeine. Join me on this exciting digital journey.",
     url: "https://mohamedboukthir.vercel.app/",
     siteName: "mohamedboukthir.vercel.app",
     type: "website",

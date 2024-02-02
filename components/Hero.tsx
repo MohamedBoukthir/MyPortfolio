@@ -35,7 +35,7 @@ export default function Hero(): ReactElement {
               <h1 className="text-5xl font-semibold sm:text-5xl md:text-6xl xl:text-[4rem]">
                 Mohamed Boukthir
               </h1>
-              <h2 className="text-3xl font-medium opacity-80 sm:text-5xl md:text-5xl xl:text-5xl text-justify">
+              <h2 className="text-3xl font-medium opacity-80 sm:text-5xl md:text-5xl xl:text-5xl xl:leading-[3.5rem] text-justify ">
                 Software developer, I love learning about new tech and using it to make good
                 software.
               </h2>
