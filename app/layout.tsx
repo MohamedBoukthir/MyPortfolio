@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import LenisProvider from "@/components/Providers/LenisProvider";
 import { ThemeProvider } from "@/components/Providers/ThemeProvider";
+import og from "@/public/og.jpeg";
 
 export const fontSans = FontSans({
   subsets: ["latin"],
@@ -16,9 +17,41 @@ export const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "Mohamed Boukthir",
+  metadataBase: new URL("https://mohamedboukthir.vercel.app/"),
+  title: "Mohamed Boukthir | Portfolio",
   description:
     "Building the future with creativity and caffeine. Join me on this exciting digital journey.",
+  openGraph: {
+    title: "Mohamed Boukthir | Portfolio",
+    description: "Desarrollador Frontend con conocimientos Full-Stack",
+    url: "https://mohamedboukthir.vercel.app/",
+    siteName: "mohamedboukthir.vercel.app",
+    type: "website",
+    images: [
+      {
+        url: og.src,
+        width: 1920,
+        height: 1080,
+      },
+    ],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: false,
+      noimageindex: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  alternates: {
+    canonical: "https://mohamedboukthir.vercel.app/",
+  },
+  category: "programming",
 };
 
 export default function RootLayout({
