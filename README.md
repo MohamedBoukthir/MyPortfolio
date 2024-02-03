@@ -56,8 +56,8 @@ This portfolio is deployed using Vercel. Any changes pushed to the main branch w
 I welcome any feedback or suggestions for improvement. Feel free to open an issue or reach out to me directly.
 
 ##Contact
-Email: medboukthir7@gmail.com
-LinkedIn: https://www.linkedin.com/in/mohamedboukthir/
-Portfolio: https://mohamedboukthir.vercel.app/
+Email: medboukthir7@gmail.com <br/>
+LinkedIn: https://www.linkedin.com/in/mohamedboukthir/ <br/>
+Portfolio: https://mohamedboukthir.vercel.app/ 
 
 
