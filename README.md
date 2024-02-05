@@ -13,10 +13,13 @@ This project serves as my online portfolio to showcase my skills, projects, and 
 - **Project Sections:** Clearly organized sections for projects, skills, and contact information.
 - **Vercel Deployment:** The portfolio is deployed on Vercel for easy accessibility.
 
+  <div align="center">
+    
   ![Portfolio](https://github.com/MohamedBoukthir/MyPortfolio/assets/124532428/3efbaa4d-a895-4577-b664-09b59459b8f6)
 
   ![Lighthouse](https://github.com/MohamedBoukthir/MyPortfolio/assets/124532428/817d7c8b-fe0e-4abf-be6e-ac8cdd1a2825)
-
+  
+</div>
 ## Getting Started
 
 ### Prerequisites
