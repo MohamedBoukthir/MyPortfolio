@@ -20,6 +20,8 @@ This project serves as my online portfolio to showcase my skills, projects, and 
   ![Lighthouse](https://github.com/MohamedBoukthir/MyPortfolio/assets/124532428/817d7c8b-fe0e-4abf-be6e-ac8cdd1a2825)
   
 </div>
+
+
 ## Getting Started
 
 ### Prerequisites
