@@ -7,6 +7,26 @@ import Java from "../public/java.jpg";
 
 export const projects: Project[] = [
   {
+    slug: "wwiftwheels",
+    title: "SwiftWheels",
+    brief: "Redefining car rentals with a dynamic web app that offers seamless booking, real-time availability, and an intuitive user interface.",
+    description:
+      "SwiftWheels is a powerful Car Rental Project! I'll show you how to build a dynamic web app with Spring Boot, Angular, daisy UI, tailwindCSS, and MySQL.",
+    image: Wave,
+    stack: [
+      "Java",
+      "Spring Boot",
+      "Spring Security",
+      "Spring Data JPA",
+      "TypeScript",
+      "MySQL",
+      "Angular",
+      "Tailwind CSS",
+    ],
+    url: "",
+    repository: "https://github.com/MohamedBoukthir/Car_Rental",
+  },
+  {
     slug: "wave",
     title: "Wave",
     brief: "Share thoughts in a snap, connect with friends, and stay updated.",
