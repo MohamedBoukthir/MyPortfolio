@@ -8,7 +8,7 @@ import Swiftwheels from "../public/swiftwheels.png"
 
 export const projects: Project[] = [
   {
-    slug: "wwiftwheels",
+    slug: "swiftwheels",
     title: "SwiftWheels",
     brief: "Redefining car rentals with a dynamic web app that offers seamless booking, real-time availability, and an intuitive user interface.",
     description:
