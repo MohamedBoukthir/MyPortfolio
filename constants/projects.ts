@@ -4,6 +4,7 @@ import Medicare from "../public/medicare.jpg";
 import Shop from "../public/e-commerce.png";
 import Security from "../public/security.jpg";
 import Java from "../public/java.jpg";
+import Swiftwheels from "../public/swiftwheels.png"
 
 export const projects: Project[] = [
   {
@@ -12,7 +13,7 @@ export const projects: Project[] = [
     brief: "Redefining car rentals with a dynamic web app that offers seamless booking, real-time availability, and an intuitive user interface.",
     description:
       "SwiftWheels is a powerful Car Rental Project! I'll show you how to build a dynamic web app with Spring Boot, Angular, daisy UI, tailwindCSS, and MySQL.",
-    image: Wave,
+    image: Swiftwheels,
     stack: [
       "Java",
       "Spring Boot",
