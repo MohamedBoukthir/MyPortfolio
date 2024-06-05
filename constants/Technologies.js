@@ -1,7 +1,7 @@
 import { BiLogoSpringBoot } from "react-icons/bi";
-import { DiMongodb } from "react-icons/di";
+import { DiDocker, DiMongodb } from "react-icons/di";
 import { FaAngular, FaGitSquare, FaGithub, FaJava, FaJsSquare, FaLinux, FaPython, FaReact, FaWindows } from "react-icons/fa";
-import { SiIntellijidea, SiMysql, SiOracle, SiPostman, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { SiDocker, SiIntellijidea, SiMysql, SiOracle, SiPostman, SiTailwindcss, SiTypescript } from "react-icons/si";
 import { TbBrandNextjs, TbBrandVscode } from "react-icons/tb";
 
 export const technologies = [
@@ -32,6 +32,7 @@ export const technologies = [
       {name: "Postman" , icon: <SiPostman size={32}/>},
       {name: "VsCode", icon: <TbBrandVscode size={32}/>},
       {name: "IntelliJ", icon: <SiIntellijidea size={32}/>},
+      {name: "Docker" , icon: <SiDocker size={32}/>},
     ]
   },
   {

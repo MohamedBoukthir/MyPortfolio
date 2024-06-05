@@ -16,7 +16,7 @@ export default function About() {
                 src={me}
                 alt="Mohamed Boukthir"
                 height={350}
-                className="object-cover"
+                className="object-cover w-auto"
                 quality={100}
                 priority={true}
               />
@@ -26,7 +26,7 @@ export default function About() {
                 <h2 className="text-3xl font-bold tracking-tight  self-center md:self-start">
                   Mohamed Boukthir
                 </h2>
-                <h3 className="text-sm font-normal  self-center md:self-start">
+                <h3 className="text-sm font-semibold self-center md:self-start">
                   Software Developer
                 </h3>
               </article>
@@ -47,7 +47,7 @@ export default function About() {
                 <h3 className="pt-18 text-3xl font-bold tracking-tight self-center md:self-start">
                   Technologies I use
                 </h3>
-                <div className="pt-5 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 justify-center md:justify-start text-sm ">
+                <div className="pt-5 grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 justify-center md:justify-start text-sm">
                   {technologies.map((category) =>
                     category.items.map((tech) => (
                       <div
