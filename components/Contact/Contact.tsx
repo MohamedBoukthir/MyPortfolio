@@ -16,7 +16,7 @@ export default function Contact() {
             <Link
               href={social.github}
               target="_blank"
-              className="p-4 relative flex flex-col items-center gap-4 duration-700 group md:gap-8 md:py-24  md:p-16"
+              className="p-4 relative flex flex-col items-center gap-4 duration-700 group md:gap-8 md:py-24 md:p-16"
             >
               <span
                 className="absolute w-px h-2/3 bg-gradient-to-b from-zinc-500 via-zinc-500/50 to-transparent"
@@ -26,10 +26,10 @@ export default function Contact() {
                 <FaGithub />
               </span>{" "}
               <div className="z-10 flex flex-col items-center">
-                <span className="text-xl sm:text-md font-medium duration-150 lg:text-xl xl:text-2xl text-zinc-200 group-hover:text-white font-display">
+                <span className="text-xl sm:text-md font-medium duration-150 lg:text-xl xl:text-2xl text-black group-hover:text-black font-display dark:text-zinc-200 dark:group-hover:text-white font-display">
                   MohamedBoukthir
                 </span>
-                <span className="mt-4 text-sm text-center duration-1000 text-zinc-400 group-hover:text-zinc-200">
+                <span className="mt-4 text-sm text-center duration-1000  text-black group-hover:text-black font-display dark:text-zinc-200 dark:group-hover:text-white font-display">
                   Github
                 </span>
               </div>
@@ -49,10 +49,10 @@ export default function Contact() {
                 <AiFillLinkedin />
               </span>{" "}
               <div className="z-10 flex flex-col items-center">
-                <span className="text-xl sm:text-md font-medium duration-150 lg:text-xl xl:text-2xl text-zinc-200 group-hover:text-white font-display">
+                <span className="text-xl sm:text-md font-medium duration-150 lg:text-xl xl:text-2xl  text-black group-hover:text-black font-display dark:text-zinc-200 dark:group-hover:text-white font-display">
                   MohamedBoukthir
                 </span>
-                <span className="mt-4 text-sm text-center duration-1000 text-zinc-400 group-hover:text-zinc-200">
+                <span className="mt-4 text-sm text-center duration-1000  text-black group-hover:text-black font-display dark:text-zinc-200 dark:group-hover:text-white font-display">
                   LinkedIn
                 </span>
               </div>
@@ -72,10 +72,10 @@ export default function Contact() {
                 <MdAlternateEmail />
               </span>{" "}
               <div className="z-10 flex flex-col items-center">
-                <span className="text-xl sm:text-md font-medium duration-150 lg:text-xl xl:text-2xl text-zinc-200 group-hover:text-white font-display">
+                <span className="text-xl sm:text-md font-medium duration-150 lg:text-xl xl:text-2xl text-black group-hover:text-black font-display dark:text-zinc-200 dark:group-hover:text-white font-display">
                   Medboukthir7@gmail.com
                 </span>
-                <span className="mt-4 text-sm text-center duration-1000 text-zinc-400 group-hover:text-zinc-200">
+                <span className="mt-4 text-sm text-center duration-1000 text-black group-hover:text-black font-display dark:text-zinc-200 dark:group-hover:text-white font-display">
                   E-mail
                 </span>
               </div>

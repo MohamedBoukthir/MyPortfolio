@@ -42,6 +42,7 @@ export default function page({ params }: Props) {
                 src={project.image}
                 alt={`image ilustration of project ${project.title}`}
                 className="rounded border object-fill"
+                priority={true}
               />
             )}
             <p className="leading-7 mt-5 mb-5">

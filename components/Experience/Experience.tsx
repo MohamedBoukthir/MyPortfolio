@@ -17,7 +17,7 @@ export default function Experience() {
                     alt={`logo of ${exp.company}`}
                     width={40}
                     height={40}
-                    className="rounded object-contain"
+                    className="rounded object-contain w-auto"
                   />
                   <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
                     {exp.company}
