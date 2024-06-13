@@ -5,8 +5,31 @@ import Shop from "../public/e-commerce.png";
 import Security from "../public/security.jpg";
 import Java from "../public/java.jpg";
 import Swiftwheels from "../public/swiftwheels.png"
+import Readly from "../public/readly.jpg"
 
 export const projects: Project[] = [
+  {
+    slug: "readly",
+    title: "Readly",
+    brief: "A platform for sharing, borrowing, and returning books.",
+    description:
+      "A Book Social Network for sharing, borrowing, and returning books. Built with Spring Boot and Angular, featuring user-friendly interfaces, file upload for book covers, email verification, and secure account management.",
+    image: Readly,
+    stack: [
+      "Java",
+      "Spring Boot",
+      "keycloak",
+      "Spring Data JPA",
+      "TypeScript",
+      "PostgreSQL",
+      "Angular",
+      "Tailwind CSS",
+      "Docker",
+      "GitHub Actions",
+    ],
+    url: "",
+    repository: "https://github.com/MohamedBoukthir/readly",
+  },
   {
     slug: "swiftwheels",
     title: "SwiftWheels",
