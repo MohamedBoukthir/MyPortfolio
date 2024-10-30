@@ -11,9 +11,9 @@ export const projects: Project[] = [
   {
     slug: "readly",
     title: "Readly",
-    brief: "A platform for sharing, borrowing, and returning books.",
+    brief: "A Book Social Network for sharing, borrowing, and returning books. Built with Spring Boot and Angular, featuring user-friendly interfaces, file upload for book covers, email verification, and secure account management.",
     description:
-      "A Book Social Network for sharing, borrowing, and returning books. Built with Spring Boot and Angular, featuring user-friendly interfaces, file upload for book covers, email verification, and secure account management.",
+      "A platform for sharing, borrowing, and returning books.",
     image: Readly,
     stack: [
       "Java",
